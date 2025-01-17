@@ -37,8 +37,8 @@ This project is an automated testing suite for managing Leads within a web appli
 
 1. Clone the repository:
    ```bash
-   git clone <repository_url>
-   cd <repository_folder>
+   git clone https://github.com/Tulsi-Shamantula/Interviews.git
+   
    ```
 
 2. Install dependencies:
