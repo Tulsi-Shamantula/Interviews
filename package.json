@@ -1,0 +1,23 @@
+{
+  "name": "playwright-example",
+  "version": "1.0.0",
+  "description": "A basic Playwright testing setup",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:headed": "npx playwright test --headed",
+    "test:chrome": "npx playwright test --project='Google Chrome'",
+    "test:firefox": "npx playwright test --project='Mozilla Firefox'",
+    "test:msedge": "npx playwright test --project='Microsoft Edge'",
+    "postinstall": "npx playwright install"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "playwright": "^1.44.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.44.0",
+    "@types/node": "^20.12.5"
+  }
+}
